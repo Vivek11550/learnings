@@ -1,0 +1,24 @@
+how to find  DSA patterns:-
+
+
+# most important DSA patterns:
+ 
+1.prefix sum
+2.Two pointer
+3.Sliding Window pattern
+4.Fast pointer slow pointer
+5.Linked List In-Place Reversal 
+6.Monotonic Stack  
+7.Top 'K' elements 
+8.Quick select(complex and solve Top 'k' element problem in O(n) t.c)
+9.overlapping interval 
+
+
+  
+
+
+
+
+
+
+

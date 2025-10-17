@@ -1,0 +1,20 @@
+Topics covered
+
+1.About js engin in different brower. 
+
+2.What is Node js.(Runtime env for js)
+
+3. node use in terminal of windows (undefined is not printed by your code — it’s printed by the Node REPL itself showing the return value.)
+
+4.Hello world in nodeJS:
+-npm init(package.jason file)
+-start script built and use
+
+5.Modules in nodeJS
+-require function in nodeJS
+-export function 
+-modules.export in nodeJS
+-about some built in function like https, crypto , Fs  etc 
+
+6.File Handling in nodeJS
+-
