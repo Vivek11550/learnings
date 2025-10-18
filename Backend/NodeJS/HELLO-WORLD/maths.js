@@ -10,3 +10,5 @@ module.exports={
 add,
 sub
 }
+
+//other way to module.exports
