@@ -1,0 +1,9 @@
+1.why react 
+2.virtual dom vs real Dom and reconciliation
+3.Jsx and how bable convert it to regular js for understanding of browser 
+4.components
+  -functional and class based component 
+  -some rules in writing function + typescript basics 
+
+5.Todo application basics 
+  -use component and jsx basics 

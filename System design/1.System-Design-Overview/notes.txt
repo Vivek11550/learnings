@@ -1,0 +1,74 @@
+1. what is system design 
+
+
+#System Design = Blueprint of a System
+
+System design is the process of planning and defining the architecture, components, and interactions of a software system to meet specific requirements — such as performance, scalability, reliability, and maintainability.
+
+⚙️ Key Goals of System Design
+Scalability – Can it handle more users and data as it grows?
+Reliability – Does it keep working even if some parts fail?
+Performance – Is it fast and responsive?
+Maintainability – Is it easy to update or fix later?
+Security – Is user data safe and protected?
+Extensibility – Can we easily add new features in the future?
+
+
+
+##all topics here are  complete solution in them selfs 
+
+1: vertical scaling:
+- optimise precision and increase through put with the same resources
+- example make more pizza in same oven - overtime the chef 
+
+2: preprossing (e.g cron job) :
+- prepare before hand during non pick hours
+-preparing row materials before time 
+
+3: Backups:
+ -keep backups and avoid single point of failure 
+ - master slave architecture in computers 
+ - example backup chefs if main chef falls ill 
+
+
+4: horizontal scaling:
+-more machines of similar types to get more work done 
+- get more resources
+-adding more ovens and chefs to serve more customer 
+
+
+5: micro service architecture 
+- make seperate system for different need( different specialities) 
+-making specialized team for example specialized team of chefs for garlic bread and pizza
+
+6: distributed system (partioning)
+-backups to differtent level 
+-new pizza shop 
+ adv - more fault tollerent 
+    - give quick response time
+
+
+7: load distribution (load balancer)
+ -central place routes request based on parameter ( ex time taken , traffic)
+-can make intelligent buissness dicesion
+-routes request in a smart way
+
+8: Decoupling 
+
+
+
+9: Logging & matrix
+-log request response for 
+ - Audits
+ -Analytics
+ -Reporting
+ -Machine learining
+
+
+10: extensible
+-Making a system extensible means designing it in a way that it can be easily expanded or enhanced in the future
+-without major changes to the existing code or structure
+
+11.HLD(System architecture) vs LLD (code based)
+
+-please dont optimize your system premeturely - hitesh chaudhry 
