@@ -1,5 +1,6 @@
 how to find  DSA patterns:-
 
+-difference array technique
 
 # most important DSA patterns:
  
@@ -10,7 +11,7 @@ how to find  DSA patterns:-
 5.Linked List In-Place Reversal 
 6.Monotonic Stack  
 7.Top 'K' elements 
-8.Quick select(complex and solve Top 'k' element problem in O(n) t.c)
+8.Quick select(complex and solve Top 'k' element problem in   O(n) t.c)
 9.overlapping interval 
 
 
