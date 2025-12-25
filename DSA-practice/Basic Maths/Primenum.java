@@ -8,8 +8,9 @@ class Primenum {
     boolean isprimenumber(int num){
        if (num <= 1) return false; //edge case if number is negative 
        if (num == 2) return true;   // 2 is prime
+       if (num % 2 == 0) return false; // even numbers > 2 are not prime
 
-        for ( int i=2;i<num;i++){
+        for ( int i=2;i<Math.sqrt(num);i++){
             if (num%i ==0){
                 return false;
             }
