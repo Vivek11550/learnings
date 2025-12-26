@@ -38,3 +38,23 @@ Topics covered
 
 
 8.Http server in node js
+-http ( build in module or package in node.js)
+-http.createServer()  :- http method to create your server
+- requestListener  :- callback inside createServer() to handle my incoming request on server.
+-req object :- req.header,req.url and req object contains all client details
+-res object :- res.end, res.send function , can return html also(server side rendering)
+-server.listen (function with PORT number):- takes callback function show console when no error in server starting.
+-creating log file for all request using fs.appendFile module
+-use non blocking request in parallel request like log 
+-multi route server using switch(req.url)
+
+
+
+9.Handling URL's in node.js 
+-url breakdown 
+-protocol
+-domain 
+-path
+-nested path /project/1 or /project/2
+-query parameters - extra information passed with url after ? 
+-ex youtube and google query parameters in details 
