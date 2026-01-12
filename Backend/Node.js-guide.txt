@@ -58,3 +58,46 @@ Topics covered
 -nested path /project/1 or /project/2
 -query parameters - extra information passed with url after ? 
 -ex youtube and google query parameters in details 
+
+
+import java.io.*;
+import java.util.*;
+
+class UserMainCode
+{
+    public int sellGold(int input1, int[] input2){
+        
+        int n = input1;
+        int[] prices = input2;
+        
+        int[][] memo = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(memo[i], -1);
+        }
+        
+        return solve(prices, 0, n - 1, 1, memo);
+    }
+    
+    private int solve(int[] prices, int left, int right, int day, int[][] memo) {
+        if (left > right) {
+            return 0;
+        }
+        
+        if (memo[left][right] != -1) {
+            return memo[left][right];
+        }
+        
+        int remaining = right - left + 1;
+        int totalOrnaments = prices.length;
+        int currentDay = totalOrnaments - remaining + 1;
+        
+        int sellLeft = prices[left] * currentDay + solve(prices, left + 1, right, day + 1, memo);
+        
+        int sellRight = prices[right] * currentDay + solve(prices, left, right - 1, day + 1, memo);
+        
+        int result = Math.max(sellLeft, sellRight);
+        memo[left][right] = result;
+        
+        return result;
+    }
+}
