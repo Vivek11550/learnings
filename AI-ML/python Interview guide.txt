@@ -1,0 +1,53 @@
+Top interview questions list 
+https://www.youtube.com/watch?v=lEC7nuPtHp0
+ 
+#Beginner
+
+1.Build in data types in python 
+  -Number 
+  -string 
+  -Boolean
+  -List 
+  -Tuple
+  -Set
+  -Dictionary
+
+ 2.Key feature of python language
+  -interpreted language
+  -Dynamically typed
+  -Object oriented programming
+  -have no specific access specifires (public, private,protected)
+  -Function = first class object(assigned to variable, can be returned from other function and can pass as parameter)\
+  -Fast (numpy)
+  -use webapp, automation , scientific modeling , Big Data , Ai Ml
+
+3.What are lambda functions in Python
+-anonymous functions
+-any no of arguments
+-only one expression
+lambda arguments: expression
+
+example   Square = lambda X : X*X
+         Square(5)
+
+4.Is python compiled language or interpreted language?
+-partly compiled and partly interpreted
+
+5.What are python namespaces
+-labled box (organized)
+-track names we give
+-variable,function etc 
+-Types  Build-in , Global , Enclosed , Local
+
+6.Local variable and Global variables in python 
+-same as js 
+-Global = Outside the function , access  all over the program 
+-Local variable = declared inside function , limited to function scope
+
+
+7.what is self in python 
+-'this' alternative in python
+
+
+8.
+
